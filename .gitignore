@@ -1,0 +1,34 @@
+# بيانات حساسة — لا ترفعها أبداً
+.env
+*.env
+config.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# قاعدة البيانات المحلية
+*.db
+*.sqlite
+*.sql
+
+# بيئات افتراضية
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ملفات مؤقتة
+*.log
+*.tmp

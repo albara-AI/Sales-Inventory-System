@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Products - Sales & Inventory</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <div class="nav-brand">Sales & Inventory <span
+                    style="font-weight: 400; font-size: 0.9em; margin-left: 0.5rem; color: var(--text-muted);">User</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="font-weight: 500;">
+                    Cart: <span id="cart-count"
+                        style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 1rem; font-size: 0.8rem;">0</span>
+                </div>
+                <a href="/" class="btn btn-secondary">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div style="display: grid; grid-template-columns: 3fr 1fr; gap: 2rem;">
+            <!-- Products Grid -->
+            <div>
+                <h1 style="margin-bottom: 2rem;">Available Products</h1>
+                <div id="user-products-grid" class="grid">
+                    <!-- Loaded by JS -->
+                </div>
+            </div>
+
+            <!-- Cart Sidebar -->
+            <div>
+                <div class="card" style="position: sticky; top: 2rem;">
+                    <h2>Your Order</h2>
+                    <ul id="cart-items" style="padding-left: 1rem; margin-bottom: 1.5rem; color: var(--text-muted);">
+                        <li>Your cart is empty</li>
+                    </ul>
+                    <button onclick="placeOrder()" class="btn btn-primary" style="width: 100%;">Place Order</button>
+                    <p style="font-size: 0.8em; color: #999; margin-top: 1rem;">
+                        Note: You will be prompted for Customer ID upon placing order. Default is 1.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadUserProducts();
+        });
+    </script>
+</body>
+
+</html>
