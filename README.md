@@ -11,12 +11,13 @@
 > Advanced Database Systems — The Hashemite University, 2025.
 
 **Team:**
-| Name | ID |
-|------|----|
-| Mohammad Ismail Mahmoud Sa'ada | 2232783 |
-| Khaled Mohammad Othman Saleh | 2232890 |
-| Mohanad Jaber Mohammad Assaf | 2233114 |
-| **Albara' Abdel Majid Aljaber** | **2239515** |
+| Name 
+|------
+| **Albara Aljaber**
+| Mohammad Ismail Mahmoud Sa'ada 
+| Khaled Mohammad Othman Saleh 
+| Mohanad Jaber Mohammad Assaf
+
 
 **Instructor:** Dr. Mahmoud Odeh
 
@@ -216,5 +217,8 @@ python verify_backend.py
 
 ## 📬 Contact
 
-**Albara' Abdel Majid Aljaber** — Data Science & AI, The Hashemite University
-📧 [your.email@example.com] · 💼 [linkedin.com/in/your-handle] · 🌐 [yourname.com]
+
+**Albaraa Aljaber** — Data Science & AI, The Hashemite University
+📧 [albaraaljaberwork@gmail.com]
+💼 [https://www.linkedin.com/in/albara-aljaber/]
+
